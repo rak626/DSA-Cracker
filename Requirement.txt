@@ -1,0 +1,23 @@
+1. Have a home page where there is all the questions you have.(middle Portions)
+        1. Model:  1. questions No.
+                2. Description
+                3. done or Not - check box
+        2.  have a filter option 
+                options:
+                        1. topic wise (dropdown)
+        3. have a sort option
+                sorting by difficulty (dropdown)
+2. Have a Admin page where we can add Problems
+        1. have a form 
+                1. questions name
+                2. link
+                3. topic
+                4. difficulty
+        2. have a submit button
+3. login Page
+        a form to login
+4. Register page
+        a form to register
+5. Profile page
+        1. have solved no of questions out of theses
+        2. last solved questions
