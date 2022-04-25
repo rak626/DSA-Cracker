@@ -1,7 +1,7 @@
 function profileController() {
     return {
         index(req, res) {
-            res.send('hello from Profile Page');
+            res.render('./profile/profilePage');
         },
     };
 }

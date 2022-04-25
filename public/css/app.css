@@ -1,0 +1,15 @@
+body {
+  font-family: "Lato", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: #232323;
+}
+
+nav a div img {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+.ques-table th {
+  margin: 200px;
+}

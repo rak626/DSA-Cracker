@@ -1,0 +1,114 @@
+<section class="container mx-auto flex items-center justify-center py-32">
+    <form class="w-full max-w-lg" action="/create" method="post">
+        <div class="flex flex-wrap -mx-3 mb-6">
+            <div class="w-full px-3">
+                <label
+                    class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                    for="grid-ProblemName"
+                >
+                    Problem Name
+                </label>
+                <input
+                    name="problemName"
+                    class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                    id="grid-ProblemName"
+                    type="text"
+                    placeholder="Enter Problem Name"
+                />
+            </div>
+
+            <div class="w-full px-3">
+                <label
+                    class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                    for="grid-link"
+                >
+                    Link
+                </label>
+                <input
+                    name="link"
+                    class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                    id="grid-link"
+                    type="text"
+                    placeholder="Enter problem link"
+                />
+            </div>
+        </div>
+        <div class="flex flex-wrap -mx-3 mb-6">
+            <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+                <label
+                    class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                    for="grid-difficulty"
+                >
+                    Difficulty
+                </label>
+                <div class="flex justify-center">
+                    <div class="mb-3 xl:w-96">
+                        <select
+                            name="difficulty"
+                            id="grid-difficulty"
+                            class="form-select appearance-none block w-full bg-gray-200 text-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+                            aria-label="Default select example"
+                        >
+                            <option value="" selected>
+                                --Select a Difficulty
+                            </option>
+                            <option value="Easy">Easy</option>
+                            <option value="Medium">Medium</option>
+                            <option value="Hard">Hard</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full md:w-1/2 px-3">
+                <label
+                    class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                    for="grid-topic"
+                >
+                    Topic
+                </label>
+                <div class="flex justify-center">
+                    <div class="mb-3 xl:w-96">
+                        <select
+                            id="grid-topic"
+                            name="topic"
+                            class="form-select appearance-none block w-full bg-gray-200 text-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+                            aria-label="Default select example"
+                        >
+                            <option value="" selected>
+                                --Select a topic from below
+                            </option>
+                            <option value="Array">Array</option>
+                            <option value="String">String</option>
+                            <option value="Hashing">Hashing</option>
+                            <option value="Dynamic Programming">
+                                Dynamic Programming
+                            </option>
+                            <option value="Binary Search">Binary Search</option>
+                            <option value="Linked List">Linked List</option>
+                            <option value="Stack">Stack</option>
+                            <option value="Queue">Queue</option>
+                            <option value="Binary Tree">Binary Tree</option>
+                            <option value="Binary Search Tree">
+                                Binary Search Tree
+                            </option>
+                            <option value="Graph">Graph</option>
+                            <option value="Greedy Algo">Greedy Algo</option>
+                            <option value="Divide and Conquer">
+                                Divide and Conquer
+                            </option>
+                            <option value="Trie">Trie</option>
+                            <option value="Recursion & Backtracking">
+                                Recursion & Backtracking
+                            </option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button
+            class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
+        >
+            Submit
+        </button>
+    </form>
+</section>
